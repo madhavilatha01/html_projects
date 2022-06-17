@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Billing Address</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+            <div class="col-7">
+                <h2>Billing Address</h2>
+                <table><tr><td><h5>First name</h5><input class="form-control" type="text" style="width:350px;"></td>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><h5 style="margin-left:50px;">Last name</h5><input class="form-control" type="text" style="margin-left:50px;width:350px;"></td></tr></table><br>
+                <h5>Username</h5>
+                <div class="input-group" style="width:753px;">
+                    <input type="submit" value="@" placeholder="Username" class="btn btn-secondary">
+                    <input type="email" class="form-control">
+                </div><br>
+                <h5>Email(optional)</h5>
+                <input type="email" placeholder="you@example.com" class="form-control" style="width:753px;"><br>
+                <h5>Address</h5>
+                <input type="text" placeholder="1234 Main Street" class="form-control" style="width:753px;"><br>
+                <h5>Address-2</h5>
+                <input type="text" placeholder="Apartment or suite" class="form-control" style="width:753px;"><br>
+                <table>
+                    <tr><td><h5>Country</h5>
+                    </td></tr>
+                </table><hr>
+
+                <input type="checkbox" value="Shipping">&nbsp;Shipping address is the same as my billing address<br>
+                <input type="checkbox" value="Save">&nbsp;Save this information for next time<hr>
+                <h2>Payment</h2>
+                <input type="radio" name="pay" value="Credit card">&nbsp;Credit card<br>
+                <input type="radio" name="pay" value="Dedit card">&nbsp;Dedit card<br>
+                <input type="radio" name="pay" value="Paypal">&nbsp;Paypal<br>
+
+                <table><tr><td><h5>Name on Card</h5><input class="form-control" type="text" style="width:350px;"></td>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><h5 style="margin-left:50px;">Credit card Number</h5><input class="form-control" type="text" style="margin-left:50px;width:350px;"></td></tr></table>
+                Full name as displayed on card<br>
+
+                <table><tr><td><h5>Expiration</h5><input class="form-control" type="text" style="width:150px;"></td>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><h5 style="margin-left:50px;">CVV</h5><input class="form-control" type="text" style="margin-left:50px;width:150px;"></td></tr></table><hr>
+
+                <input type="submit" class="btn btn-primary" value="Continue to checkout" style="width:753px;">
+            </div>
+            <div class="col-5">
+                <h2> Your cart &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge rounded-pill text-bg-secondary">3</span></h2><br>
+                <div> 
+                    <ul class="list-group">
+                        <li class="list-group-item"><h5>Product name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $12</h5>Brief description</li>
+                        <li class="list-group-item"><h5>Second Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$8</h5>Brief description</li>
+                        <li class="list-group-item"><h5>Third item &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5</h5>Brief description</li>
+                        <li class="list-group-item" style="color:rgb(64, 221, 7)"><h5>Promo code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-$5</h5>EXAMPLECODE</li>
+                        <li class="list-group-item"><h5>Total(USD) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $20</h5></li>
+                    </ul></div><br>
+                    <div class="input-group" style="width:518px;border:1px solid black;padding:10px;border-radius:5px">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <input type="submit" value="Reedem" placeholder="Username" class="btn btn-secondary">
+                    </div>
+            </div></div>
+        </div>
+    </body>
+</html>
