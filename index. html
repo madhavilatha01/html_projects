@@ -6,8 +6,8 @@
     <title>Login</title>
     </head>
     <body style="margin-top:90px;">
-        <center><img src="bootstrap-5.2.0-beta1-dist\acc.jpg" height:200px; width:200px><br><br>
-        <a href="bootstrap-5.2.0-beta1-dist\home-page.html"><h4>Click here</h4></a><h4>to login into your account</h4></center>
+        <center><img src="bootstrap-5.2.0-beta1-dist/acc.jpg" height:200px; width:200px><br><br>
+        <a href="bootstrap-5.2.0-beta1-dist/home-page.html"><h4>Click here</h4></a><h4>to login into your account</h4></center>
         <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
     </body>
 </html>
